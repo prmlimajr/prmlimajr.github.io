@@ -83,4 +83,4 @@ function idade(anoAniversario, mesAniversario, diaAniversario) {
     return quantosAnos    
 }
 
-quemSouEu.innerHTML = `Oi, eu sou Paulo. Tenho ${idade(1985, 8, 3)} anos e sou estudante do curso de Ciência da Computação, na Uninassau, atualmente no terceiro período. Nasci e me criei em Recife, Pernambuco.`
+quemSouEu.innerHTML = `${idade(1985, 8, 3)}`
