@@ -13,7 +13,7 @@ javaTech.addEventListener('click', () =>{
 })
 
 pyTech.addEventListener('click', () =>{
-    descricaoSkill.innerHTML = 'Python foi a primeira linguagem de programação com a qual eu tive contato. Iniciei os estudos na língua de maneira autodidata. Atualmente eu posso dizer que quase tudo o que eu consigo fazer com Java eu consigo fazer com Python.'
+    descricaoSkill.innerHTML = 'Python foi a primeira linguagem de programação com a qual eu tive contato. Iniciei os estudos na língua de maneira autodidata. Atualmente eu posso dizer que o que eu consigo fazer com Java eu consigo fazer com Python. Além disso, eu estou frequentando um curso extracurricular de programação em Python, ministrado pela Fuctura Tecnologias.'
 })
 
 htmlTech.addEventListener('click', () =>{
@@ -66,3 +66,21 @@ btnVolta.addEventListener('click', () => {
         contador--
     }
 })
+
+// Quantos anos eu tenho hoje?
+let quemSouEu = document.getElementById('quem-descricao')
+function idade(anoAniversario, mesAniversario, diaAniversario) {
+    let data = new Date()
+    anoAtual = data.getFullYear()
+    mesAtual = data.getMonth()
+    diaAtual = data.getDate()
+
+    quantosAnos = anoAtual - anoAniversario
+    
+    if (mesAtual < mesAniversario || mesAtual == mesAniversario && diaAtual < diaAniversario) {
+        quantosAnos--
+    }
+    return quantosAnos    
+}
+
+quemSouEu.innerHTML = `Oi, eu sou Paulo. Tenho ${idade(1985, 8, 3)} anos e sou estudante do curso de Ciência da Computação, na Uninassau, atualmente no terceiro período. Nasci e me criei em Recife, Pernambuco.`
