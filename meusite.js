@@ -13,7 +13,7 @@ javaTech.addEventListener('click', () =>{
 })
 
 pyTech.addEventListener('click', () =>{
-    descricaoSkill.innerHTML = 'Python foi a primeira linguagem de programação com a qual eu tive contato. Iniciei os estudos na língua de maneira autodidata. Atualmente eu posso dizer que o que eu consigo fazer com Java eu consigo fazer com Python. Além disso, eu estou frequentando um curso extracurricular de programação em Python, ministrado pela Fuctura Tecnologias.'
+    descricaoSkill.innerHTML = 'Python foi a primeira linguagem de programação com a qual eu tive contato. Iniciei os estudos na língua de maneira autodidata. Atualmente eu posso dizer que quase tudo o que eu consigo fazer com Java eu consigo fazer com Python.'
 })
 
 htmlTech.addEventListener('click', () =>{
