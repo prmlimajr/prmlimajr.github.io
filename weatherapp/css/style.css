@@ -1,0 +1,118 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #293251;
+    text-align: center;
+}
+
+.card{
+    width: 300px;    
+    background-color: #FFF;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.titulo{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.titulo p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notificacao{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notificacao p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.conteudo{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.conteudo-icone{
+    width: 300px;
+    height: 128px;
+}
+
+.conteudo-icone img{
+    display: block;
+    margin: 0 auto;
+}
+
+.conteudo-temperatura{
+    width: 300px;
+    height:60px;
+    font-size: 30px;
+}
+
+.conteudo-temperatura p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.conteudo-temperatura p:hover{
+    
+}
+
+.conteudo-temperatura span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperatura-descricao{
+    
+}
+
+.temperatura-descricao p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.local{
+    
+}
+
+.local p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer{
+    text-align: center;
+    color: #FFF;
+}
+
+footer a{
+    color: tomato;
+    text-decoration: none;
+}
