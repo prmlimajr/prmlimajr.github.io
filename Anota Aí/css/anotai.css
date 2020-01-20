@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4ef1b1;
+    text-align: center;
+    font-family: amatic sc;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+h2 {
+    padding-bottom: 30px;
+}
+
+div.login {
+    background-color: white;
+    color: black;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px 0;
+    box-shadow: #2da877 5px 5px 5px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input {
+    height: 20px;
+    width: 170px;
+    border-radius: 5px;
+    font-family: amatic sc;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button {
+    height: 27px;
+    width: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #4ef1b1;
+    font-family: amatic sc;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+ul {
+    cursor: pointer;
+    list-style-image: url('../img/iconelista.png');
+    text-align: left;
+}
+
+li:hover {
+    color: #2da877;  
+}
+
+div.todo {
+    background-color: white;
+    color: black;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px 0;
+    box-shadow: #2da877 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.concluido {
+    text-decoration: line-through;
+    color: #2da877;
+}
+
+div.fundo {
+    background-color: white;
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+}
+
+div.fundo  button {
+    background-color: #4ef1b1;
+    border-style: none;
+    height: 40px;
+}
