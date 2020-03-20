@@ -349,3 +349,39 @@ h2 {
     opacity: 75%;
     padding-bottom: 5px;
 }
+
+
+.card-clientes {
+    background-color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cliente-vermelho {
+    background-color: #ef3246;
+    color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.cliente-amarelo {
+    background-color: #eec40e;
+    color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.nossa-equipe-img {
+    padding: 20px 0;
+    width: 100%;
+}
+
+input {
+    border-color: none;
+    border-bottom: black;
+
+}
