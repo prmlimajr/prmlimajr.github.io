@@ -44,9 +44,9 @@
     function displayNextImage(){
         activities.innerHTML = `<img src=${activitiesImg[activitiesImgOnDisplay].img} alt=${activitiesImg[activitiesImgOnDisplay].txt} class="vistoria"><p class="atividades-desc" id="atividades-desc">${activitiesImg[activitiesImgOnDisplay].txt}</p>`
         
-        activitiesImg[activitiesImgOnDisplay] === activitiesImg.length - 1 ? activitiesImgOnDisplay = 0 : activitiesImgOnDisplay++;
+        activitiesImgOnDisplay === activitiesImg.length - 1 ? activitiesImgOnDisplay = 0 : activitiesImgOnDisplay++;
     };
 
-    setInterval(displayNextImage, 4000);
+    setInterval(displayNextImage, 3000);
 
 })()
