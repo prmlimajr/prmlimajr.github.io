@@ -6,6 +6,7 @@
     <title>Bem Vindo</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <section id="weather">
@@ -18,7 +19,13 @@
         <div class="temperatura-descricao" id="temperatura-descricao"></div>
         <div class="local" id="local"></div>
     </section>
-        
+    
+    <section id="google">
+        <form id=search action="https://www.google.com/search" method="get">
+            <input type="search" name="q" placeholder="Pesquisar no Google"/>
+        </form>
+    </section>
+
     <section id="clock">
         <time id="time"></time>
         <h1>
