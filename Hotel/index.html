@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bem Vindo ao hostel mais aconchegante do Recife!">
+    <meta name="keywords" content="hotel, hostel, Recife, Recife Antigo, hospedagem">
+    <title>Recife Antigo Hostel | Bem Vindo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+<body>
+    <header id="start">
+        <nav>
+            <div class="container">
+                <h1><a href="#start">RAH!</a></h1>
+
+                <ul>
+                    <li>
+                        <a href="#start" id="top" class="current">Início</a>
+                    </li>
+                    <li>
+                        <a href="#about-section" id="about">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#contact-section" id="contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1><span class="text-primary">Aproveite</span> Sua Estadia</h1>
+                    <p class="lead">Nosso hostel conta com instalações confortáveis e com uma ótima localização pertinho do centro cultural e histórico do Recife!</p>
+                    <a href="#about-section" class="btn">Sobre nosso Hostel</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home-info" class="bg-dark">
+        <div class="info-img">
+            <img src="img/photo-1.jpg" alt="Fachada do Hostel">
+        </div>
+        <div class="info-content">
+            <h2><span class="text-primary">A História</span> de nosso hostel</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae repellendus quidem a, laboriosam illo veniam perferendis quisquam. Ea eum, sed reprehenderit facere quo modi odio at non inventore aut ipsam tempore illum voluptas distinctio cumque. Tempora unde maxime nemo ratione.</p>
+
+            <button id="modalBtn" class="btn-light">Saiba mais</button>
+        </div>
+        <div id="modal" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <p>Você sabia que o nosso hostel está funcionando em um prédio cheio de histórias? Nossos hóspedes ficam encantados com tudo o que aconteceu aqui e nos nossos arredores. Venha você também ver de perto onde a nossa cidade nasceu!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="box">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3>Ótima localização</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, vitae?</p>
+        </div>
+        <div class="box-orange">
+            <i class="fas  fa-utensils fa-3x"></i>
+            <h3>Refeições Inclusas</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, odio?</p>
+        </div>
+        <div class="box">
+            <i class="far fa-comment fa-3x"></i>
+            <h3>Área de Convívio</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, pariatur.</p>
+        </div>
+    </section>
+
+    <section id="about-section">
+        <div class="card">
+            <div class="info-left">
+                <h1 class="l-heading"><span class="text-primary">Sobre</span> o Recife Antigo Hostel</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ad architecto cupiditate obcaecati maiores iusto magnam dolorum unde optio tempore a deleniti, voluptatem modi in eligendi ipsum ullam voluptas sapiente!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet nobis accusantium voluptates harum excepturi velit ex iusto asperiores laborum dolor!</p>
+            </div>
+            <div class="info-right"></div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="l-heading">O Que os <span class="text-primary">Nossos Hóspedes</span> Dizem Sobre Nós</h2>
+            <div class="testimonial">
+                <img src="./img/person-1.jpg" alt="Samanta">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos natus deserunt exercitationem nulla debitis, beatae commodi? Quod deleniti omnis inventore voluptatum cumque placeat, voluptatem, numquam repellendus quis alias nobis quas at molestias non nostrum molestiae architecto nemo culpa adipisci vero.</p>
+            </div>
+            <div class="testimonial">
+                <img src="./img/person-2.jpg" alt="Júlia">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos natus deserunt exercitationem nulla debitis, beatae commodi? Quod deleniti omnis inventore voluptatum cumque placeat, voluptatem, numquam repellendus quis alias nobis quas at molestias non nostrum molestiae architecto nemo culpa adipisci vero.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contato</span></h1>
+            <p>Favor preencher o formulário abaixo para entrar em contato conosco.</p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" placeholder="Nome" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn" id="btnSubmit">Enviar</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        <p>Desenvolvido por <a href="https://prmlimajr.github.io/">Paulo Lima</a> em Maio de 2020.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
