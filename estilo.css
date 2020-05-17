@@ -23,7 +23,7 @@ header {
     background-color: #ffec00;
     text-align: right;
     padding-top: 20px;
-    height: 790px;
+    height: 100vh;
 }
 
 header nav ul li {
