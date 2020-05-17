@@ -343,8 +343,13 @@ input:focus, textarea:focus {
         display: flex;
     }
 
+    #features .box {
+        width: 33%;
+    }
+
     #features .box-orange {
         min-height: 100%;
+        width: 33%;
     }
 
     #about-section {
