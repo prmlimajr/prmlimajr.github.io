@@ -131,7 +131,7 @@ nav ul li a:hover, nav ul li a.current {
 }
 
 .info-img {
-    height: 250px;
+    background: url('../img/photo-1.jpg') no-repeat center center/cover;
 }
 
 .info-img img {
