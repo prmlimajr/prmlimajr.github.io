@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seletor de Cores</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="colorCard">
+      <h1>Seletor de Cores</h1>
+      <div class="selectors">
+        <div class="labels">
+          <label for="rangeR">
+            <span class="red">( R ) Vermelho :</span>
+          </label>
+          <label for="rangeG">
+            <span class="green">( G ) Verde :</span>
+          </label>
+          <label for="rangeB">
+            <span class="blue">( B ) Azul :</span>
+          </label>
+        </div>
+        <div class="inputRange">
+          <input type="range" min="0" max="255" value="0" id="rangeR" class="range rangeR"> 
+          <input type="range" min="0" max="255" value="0" id="rangeG" class="range rangeG"> 
+          <input type="range" min="0" max="255" value="0" id="rangeB" class="range rangeB"> 
+        </div>
+        <div class="inputText">
+          <input type="text" disabled id="displayR" value="0" class="rgbValue"> 
+          <input type="text" disabled id="displayG" value="0" class="rgbValue"> 
+          <input type="text" id="displayB" value="0" disabled class="rgbValue"> 
+        </div>  
+      </div>
+      <p>HEX: <span id="hex">hex</span></p>
+      <p>Desenvolvido por <a href="https://github.com/prmlimajr">Paulo Lima</a> em Maio de 2020</p>
+    </div>
+  </div>
+  
+  <script src="/js/script.js"></script>
+</body>
+</html>
