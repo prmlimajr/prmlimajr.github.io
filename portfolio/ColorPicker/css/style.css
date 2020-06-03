@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  text-align: center;
+  background-color: rgb(0,0,0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: crimson 3px solid;
+}
+
+.colorCard {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 20px 0;
+}
+
+.selectors {
+  display: flex;
+  align-items: center;
+}
+
+div.labels {
+  text-align: left;
+}
+
+label {
+  padding-bottom: 7px;
+}
+
+
+
+div.labels,
+div.inputRange,
+div.inputText {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+span.red {
+  color: red;
+}
+
+span.green {
+  color: green;
+}
+
+span.blue {
+  color: blue;
+}
+
+.range {
+  margin-bottom: 5px;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+.rangeR::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: red; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.rangeG::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: green; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.rangeB::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: blue; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.rgbValue {
+  margin-bottom: 7px;
+  height: 23px;
+  width: 30px;
+  border-style: none;
+  text-align: center;
+}
+
+p {
+  padding-top: 10px;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}

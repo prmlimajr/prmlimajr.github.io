@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d6eb0;
+}
+
+img {
+    padding-top: 30px;
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: cornsilk;
+}
+
+h2 {
+    color: cornsilk;
+    padding-bottom: 20px;
+}
+
+div.jogo {
+    padding: 30px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    background-color: #1d6eb0;
+    width: 70px;
+    height: 40px;
+    color: cornsilk;
+    border-style: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div.desafio {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+div.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.jogador {
+    padding: 0 20px;
+}
+
+div.placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+footer {
+    color: cornsilk;
+    padding: 20px;
+    text-align: center;
+}
+
+a.assinatura {
+    text-decoration: none;
+    color: cornsilk;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media(min-width: 768px) {
+    img {
+        height: 200px;
+        width: 200px;
+        padding-top: 10px;
+    }
+    div.jogo {
+        width: 500px;
+    }
+}

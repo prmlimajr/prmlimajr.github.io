@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Vindo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="weather">
+        <div class="notificacao" id="notificacao"></div>
+
+        <div class="conteudo-icone" id="conteudo-icone">
+            <img src="icons/unknown.png" alt="">
+        </div>
+        <div class="conteudo-temperatura" id="conteudo-temperatura"></div>
+        <div class="temperatura-descricao" id="temperatura-descricao"></div>
+        <div class="local" id="local"></div>
+    </section>
+    
+    <section id="google">
+        <form id=search action="https://www.google.com/search" method="get">
+            <input type="search" name="q" placeholder="Pesquisar no Google"/>
+        </form>
+    </section>
+
+    <section id="clock">
+        <time id="time"></time>
+        <h1>
+            <span id="greeting"></span>
+            <span id="name" contenteditable="true">[ Digite seu nome aqui ]</span>
+        </h1>
+    </section>
+
+    <section id="todo">
+        <h2>O que te motiva hoje?</h2>
+        <h2 id="focus" contenteditable="true">[ Digite o que te motiva aqui ]</h2>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://prmlimajr.github.io/">Paulo Lima</a> em Abril de 2020.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>

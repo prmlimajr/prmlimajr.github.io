@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio do Módulo 01 - Bootcamp Dev Fullstack IGTI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  <h1>Pesquisa de Usuários</h1>
+  <p>Desenvolvido por <a href="https://github.com/prmlimajr">Paulo Lima</a> em Maio de 2020.</p>
+
+  <span id="loading"></span>
+  <div class="search" id="top">
+    <label for="searchInput">Busca</label>
+    <div class="input-and-button">
+      <input type="text" id="searchInput">
+      <button class="btn-disabled" id="btn" disabled >BUSCAR</button>
+    </div>
+  </div>
+  
+  <div class="container" id="bottom">
+    <div class="card">
+      <h2 id="counter">Nenhum usuário filtrado</h2>
+      <div id="tabPeople"></div>
+    </div>
+    <div class="card">
+      <h2 id="data">Nada a ser exibido</h2>
+      <div id="tabData"></div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

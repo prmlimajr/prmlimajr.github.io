@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Oi, eu sou Paulo! Estudante de Ciência da Computação</title>
-    <link rel="stylesheet" href="estilo.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header id="home">
@@ -48,7 +49,7 @@
         <div class="fundo-about">
             <h2>Sobre</h2>
             <div class="img-about">
-                <img src="eu.png" alt="" class="eu">
+                <img src="./img/eu.png" alt="" class="eu">
             </div>
 
             <div class="quem">
@@ -67,19 +68,19 @@
                     <ul>
                         <li>
                             <label for="java">Java</label>
-                            <progress id="java" max="100" value="55"></progress>
+                            <progress id="java" max="100" value="45"></progress>
                         </li>
                         <li>
                             <label for="python">Python</label>
-                            <progress id="python" max="100" value="35"></progress>
+                            <progress id="python" max="100" value="25"></progress>
                         </li>
                         <li>
                             <label for="html">HTML</label>
-                            <progress id="html" max="100" value="55"></progress>
+                            <progress id="html" max="100" value="85"></progress>
                         </li>
                         <li>
                             <label for="css">CSS</label>
-                            <progress id="css" max="100" value="40"></progress>
+                            <progress id="css" max="100" value="60"></progress>
                         </li>
                         <li>
                             <label for="js">JavaScript</label>
@@ -91,7 +92,7 @@
                         </li>
                         <li>
                             <label for="sql">MySQL</label>
-                            <progress id="sql" max="100" value="65"></progress>
+                            <progress id="sql" max="100" value="55"></progress>
                         </li>
                     </ul>
                 </div>
@@ -99,6 +100,18 @@
             <div id="skills" class="exibe-skill">
                 <p>Escolha uma tecnologia para ver o andamento dos meus estudos.</p>
             </div>
+        </div>
+
+        <div class="presente">
+            <h4>O Que eu tenho feito durante a quarentena?</h4>
+            <ul>
+                <li>Fundei e me tornei diretor da LadSoft, a Liga Acadêmica de Desensenvolvimento de Software da Uninassau. </li>
+                <li>Participei dos Hackathons Mega Hack, da Shawee, e do NASA Space Apps COVID19 Challenge, da NASA</li>
+                <li>Concluí vários cursos na Udemy</li>
+                <li>Participei de Bootcamps de Desenvolvimento Fullstack e Metodologias Ágeis no Desenvolvimento de Software</li>
+                <li>Desenvolvi vários projetos de estudo</li>
+                <li>Dediquei-me bastante nas aulas da Universidade</li>
+            </ul>
         </div>
 
         <p class="p-quote">Mas não se deixe seduzir pelo meu impressionante <a href="https://drive.google.com/open?id=1O21R5OaAuKuCSobAyN9ytY15K1YYoi1j" target="_blank">histórico acadêmico</a>.</p>
@@ -113,13 +126,41 @@
 
     <section id="portfolio">
         <h2>Portfólio</h2>
-
-        <div>
-            <a href="https://tprmprmlimajr.000webhostapp.com/" target="_blank">
-                <img src="tprm.jpg" alt="">
-            </a>
-            <p id="port-descr">Este foi um projeto desenvolvido em PHP, com apoio de HTML e CSS, utilizando o framework Bootstrap e integrado com um banco de dados MySQL para participar de um processo seletivo de estágio, que consistia em desenvolver um sistema de login e CRUD, Create, Read, Update and Delete. Foi o meu primeiro contato com o PHP e no geral eu fiquei bastante satisfeito com o resultado.</p>
-        </div>
+        
+        <div class="row">
+            <div class="column">
+              <a href="./img/tprm.jpg" data-lightbox="cases" data-title="TPRM - Projeto desenvolvido em PHP e MySQL para participar de um processo seletivo de estágio, que consistia em desenvolver um sistema de login e CRUD. Acesse em https://tprmprmlimajr.000webhostapp.com/">
+                <img src="./img/tprm.jpg" alt="">
+              </a>              
+              <a href="./portfolio/EdgeLedger/img/thumbnail.png" data-lightbox="cases" data-title="EdgeLedger - Projeto desenvolvido em HTML, CSS e JavaScript. É uma landing page para uma empresa fictícia. Você pode acessar o projeto em: https://prmlimajr.github.io/EdgeLedger/">
+                <img src="./portfolio/EdgeLedger/img/thumbnail.png" alt="">
+              </a>
+            </div>
+            <div class="column">
+              <a href="./portfolio/Hotel/img/thumbnail.png" data-lightbox="cases" data-title="Recife Antigo Hostel - Projeto desenvolvido em HTML, CSS e JavaScript. É uma landing page para uma empresa fictícia. Você pode acessar o projeto em: https://prmlimajr.github.io/Hotel/">
+                <img src="./portfolio/Hotel/img/thumbnail.png" alt="">
+              </a>
+              <a href="./portfolio/oquetemotiva/thumbnail.png" data-lightbox="cases" data-title="O Que Te Motiva? - É uma aplicação que desenvolvi para ser a página inicial de meu navegador. Ela se alimenta de uma API que fornece dados climáticos da localização do usuário. Conta com Um relógio construído em JavaScript e com persistência de dados usando o Local Storage para armazenar o nome do usuário e um motivacional. Pode ser acessada em: https://prmlimajr.github.io/oquetemotiva/">
+                <img src="./portfolio/oquetemotiva/thumbnail.png" alt="">
+              </a>
+            </div>
+            <div class="column">
+              <a href="./portfolio/bethehero.png" data-lightbox="cases" data-title="Be The Hero - Aplicação web e mobile desenvolvida em ReactJS, NodeJS e React Native. Foi desenvolvida através de curso promovido pela Rocketseat. Pode ser acessada em: https://github.com/prmlimajr/be-the-hero">
+                <img src="./portfolio/bethehero.png" alt="">
+              </a>
+              <a href="./portfolio/ladsoft.png" data-lightbox="cases" data-title="LadSoft - Desenvolvida em HTML, CSS e JavaScript. É uma landing page para a Liga Acadêmica de Desenvolvimento de Software da Universidade Uninassau, da qual sou diretor e membro fundador. WIP, foi desenvolvido apenas a versão Mobile por enquanto. Pode ser acessada em: https://ladsoft-nassau.github.io/ ">
+                <img src="./portfolio/ladsoft.png" alt="">
+              </a>
+            </div>
+            <div class="column">
+              <a href="./portfolio/pptls/img/desktop.png" data-lightbox="cases" data-title="Pedra, Papel, Tesoura, Lagarto, Spock - Adaptação do jogo Pedra, Papel e Tesoura, dessa vez com mais armas. Desenvolvido em JavaScript. Pode ser acessado em: https://prmlimajr.github.io/pptls/pptls">
+                <img src="./portfolio/pptls/img/desktop.png" alt="">
+              </a>
+              <a href="./portfolio/usersearcher.png" data-lightbox="cases" data-title="Procurar Usuários - Aplicação desenvolvida em JavaScript como forma de avaliação de aprendizagem em Bootcamp de Dev Fullstack promovido pelo IGTI. A aplicação consome API com dados de usuários e possui uma ferramenta de busca que filtra os usuários pelo nome pesquisado e retorna dados dos usuários. Pode ser acessada em: https://prmlimajr.github.io/Desafio-ProcurarUsuarios/">
+                <img src="./portfolio/usersearcher.png" alt="">
+              </a>
+            </div>
+          </div>
     </section>
 
     <section id="social">
@@ -175,6 +216,11 @@
             </div>
         </div>
     </section>
-    <script src="meusite.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+    <script src="./js/lightbox.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

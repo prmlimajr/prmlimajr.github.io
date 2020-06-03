@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 3rem;
+}
+
+.search {
+  width: 100%;
+  padding: 0 30px;
+}
+
+label {
+  color: rgb(120, 166, 168);
+  font-size: 12px;
+}
+
+.input-and-button {
+  display: flex;
+}
+
+#searchInput {
+  border-style: none;
+  border-bottom: 2px rgb(120, 166, 168) solid;
+  width: 100%;
+  margin-right: 5px;
+  height: 30px;
+  padding: 0 10px;
+}
+
+#searchInput:focus {
+  outline: none;
+  border-bottom: 2px springgreen solid;
+}
+
+.btn-disabled {
+  border-style: none;
+  color: lightslategrey;
+  padding: 0 10px;
+}
+
+.btn {
+  border-style: none;
+  color: #fff;
+  background-color: rgb(29, 172, 172);
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  margin: 30px;
+}
+
+.card {
+  margin: 0 5px;
+  width: 600px;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.person img {
+  border-radius: 50%;
+}
+
+.person p {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(29, 172, 172);
+  font-weight: bold;
+}

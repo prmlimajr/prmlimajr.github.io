@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.9;
+}
+
+#time {
+    font-size: 8rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+
+.notificacao{
+    display: none;
+}
+
+.conteudo-icone{
+    width: 300px;
+    height: 108px;
+}
+
+.conteudo-icone img{
+    display: block;
+    margin: 0 auto;
+}
+
+.conteudo-temperatura{
+    width: 300px;
+    font-size: 40px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.conteudo-temperatura span{
+    font-size: 1em;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #000;
+    opacity: 0.7;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: crimson;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#search input {
+    height: 44px;
+    width: 350px;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 15px;
+    border-style: none; 
+}
+
+#search input::placeholder {
+    color: gray;
+}
+
+@media (max-width: 700px) {
+    #time {
+        font-size: 4rem;
+    }
+}
+

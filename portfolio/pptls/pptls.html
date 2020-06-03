@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedra, Papel, Tesoura, Lagarto, Spock - O Jogo</title>
+    <link rel="stylesheet" href="css/pptls.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="img/logo.png" alt="Pedra, Papel, Tesoura, Lagarto, Spock">
+    <h1>Pedra, Papel, Tesoura, Lagarto, Spock</h1>
+    <h2>O Jogo</h2>
+
+    <div id="jogo" class="jogo">
+        <ul>
+            <li><button id="pedra">Pedra</button></li>
+            <li><button id="papel">Papel</button></li>
+            <li><button id="tesoura">Tesoura</button></li>
+            <li><button id="lagarto">Lagarto</button></li>
+            <li><button id="spock">Spock</button></li>
+        </ul>
+        
+        <div id="desafio" class="desafio">Escolha sua arma para jogar!</div>
+        <div id="explica" class="explica"></div>
+        <div id="resultado" class="resultado"></div>
+        <div class="placar">
+            <div class="jogador">Você</div>
+            <div id="placarP1">0 </div> X <div id="placarP2"> 0</div>
+            <div class="jogador">Op</div>
+        </div>
+        <button id="reset" class="reset">Reiniciar</button>
+    </div>
+    <footer>
+        <p>Desenvolvido por <a href="https://prmlimajr.github.io/" class="assinatura" target="_blank">Paulo Lima</a> - Dezembro de 2019</p>
+    </footer>
+
+    <script src="js/pptls.js"></script>
+</body>
+</html>
