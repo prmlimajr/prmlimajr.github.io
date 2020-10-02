@@ -1,3 +1,5 @@
+<h1>DESCONTINUADO</h1>
+
 <h1>Site Pessoal e Portfólio</h1>
 
 Este site foi desenvolvido em JavaScript puro, no final de 2019, quando eu estava iniciando meus estudos na linguagem. 
